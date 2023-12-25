@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.top-nav-value {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.top-nav-value .switch {
+    width: 150px;
+    padding-top: 6px;
+}
+
+.top-nav-value img,
+.top-nav-value .switch {
+    margin-inline: 12px;
+}
+
+.top-nav-value form {
+    width: 100%;
+}
+
+.top-nav-value .form-value {
+    display: flex;
+    border-radius: 20px;
+    background: lightgrey;
+    padding: 2px;
+}
+
+.form-value input {
+    background: transparent;
+    border: transparent;
+    margin-left: 6px;
+    outline: transparent solid 2px;
+    width: 100%;
+    padding: 6px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+form .form-value input:focus + form .form-value  {
+    border: 10px black solid;
+}
+
+.form-value .loop {
+    padding: 4px;
+    margin-left: 6px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-nav-bar, .cards {
+    padding: 20px;
+}
+
+.left-nav-bar {
+    width: 20%;
+}
+
+.cards {
+    width: 80%;
+}
+
+.cards-value {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards h1, .btn-group {
+    margin-left: 12px;
+}
+
+.card {
+    margin: 12px;
+}
